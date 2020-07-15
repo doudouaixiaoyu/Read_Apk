@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Read_Apk</string>
+    <string name="app_title">读取U盘APK文件</string>
+    <string name="read_button_title">读取U盘APK文件</string>
+    <string name="read_Local_button_title">读取下载文件夹APK文件</string>
+    <string name="downTitle">下载进度:</string>
+</resources>

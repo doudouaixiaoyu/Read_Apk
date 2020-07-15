@@ -1,0 +1,3 @@
+include ':app:ghtn'
+rootProject.name='Read_Apk'
+include ':app'

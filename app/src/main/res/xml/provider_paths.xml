@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths>
+        <files-path
+            name="files"
+            path="" /> <!--代表你的app内部存储区域 files/ 目录下的文件, 等同于 Context.getFilesDir().-->
+        <cache-path
+            name="cache"
+            path="" /> <!--代表你的app内部存储区域 files/ 目录下的文件, 等同于 Context.getFilesDir().-->
+        <external-path
+            name="external"
+            path="" /> <!--代表外部存储根目录下的文件路径, 等同于 Environment.getExternalStorageDirectory().-->
+        <external-files-path
+            name="external_file_path"
+            path="" /> <!--代表你的app外部存储区域根目录下的路径, 等同于Context#getExternalFilesDir(String) Context.getExternalFilesDir(null)-->
+        <external-cache-path
+            name="external_cache_path"
+            path="" /> <!--代表你的app外部存储区域缓存目录下的路径, 等同于 Context.getExternalCacheDir()-->
+        <external-media-path
+            name="external_media_path"
+            path="" /> <!--代表你的app外部存储区域媒体目录下的路径, 等同于Context.getExternalMediaDirs()-->
+        <root-path
+            name="externalfiles"
+            path="/storage/" />
+    </paths>
+</resources>
